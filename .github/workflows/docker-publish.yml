@@ -23,6 +23,9 @@ jobs:
           fi
 
   push:
+    branches:
+      - master
+
     needs: test
 
     runs-on: ubuntu-latest
