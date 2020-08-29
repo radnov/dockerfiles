@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: aws-shell
+  IMAGE_NAME: docker-aws-shell
 
 jobs:
   test:
